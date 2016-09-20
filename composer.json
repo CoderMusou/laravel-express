@@ -2,6 +2,7 @@
     "name": "widuu/laravel-express",
     "description": "A Express For Laravel",
     "license": "Apache-2.0",
+    "keywords": ["laravel", "Express", "laravel Express"],
     "authors": [
         {
             "name": "widuu",
@@ -14,5 +15,8 @@
           "widuu\\Express\\": "src/"
         }
     },
-    "require": {}
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.1",
+    }
 }
