@@ -18,7 +18,7 @@
   widuu\Express\ExpressServiceProvider::class,
   ```
 
-2. （可选）添加外观到 `config/app.php` 中的 `aliases` 部分:
+2. （可选）添加到 `config/app.php` 中的 `aliases` 部分:
 
   ```php
   'Express' => widuu\Express\Express::class,
